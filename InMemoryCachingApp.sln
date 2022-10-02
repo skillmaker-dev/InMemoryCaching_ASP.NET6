@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryCaching", "InMemoryCaching\InMemoryCaching.csproj", "{5256EB22-AC68-44DA-B28A-29D1FB744A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{29F5591E-4C5F-41A4-BB6C-022C612E59D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5256EB22-AC68-44DA-B28A-29D1FB744A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5256EB22-AC68-44DA-B28A-29D1FB744A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5256EB22-AC68-44DA-B28A-29D1FB744A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5256EB22-AC68-44DA-B28A-29D1FB744A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F5591E-4C5F-41A4-BB6C-022C612E59D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F5591E-4C5F-41A4-BB6C-022C612E59D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F5591E-4C5F-41A4-BB6C-022C612E59D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F5591E-4C5F-41A4-BB6C-022C612E59D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BD4F440-A22C-4145-AAB2-2BE33200BDC1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿@page "/fetchdata"
+@inject ISampleData data
+<PageTitle>Employees Directory</PageTitle>
+
+
+<h1>Employees Directory</h1>
+
+@if (employees is not null)
+{
+    @foreach (var e in employees)
+    {
+                         <h3>@e.FirstName @e.LastName Salary: @e.Salary</h3>
+    }
+}
+else
+{
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+}
+
+
+
+
+@code {
+    List<Employee> employees;
+    //protected override void OnInitialized()
+    //{
+    //    employees = data.GetEmployees();
+    //}
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await data.GetEmployeesCached();
+    }
+}
